@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Hfjdvx } from './Hfjdvx';
+import { Properte } from './Properte';
+import { Stet } from './Stet';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Properte name="ali" ayg="19" img=".\imgs\IMG_0415-website--1024x683.jpg"/>
+   <Hfjdvx/>
+   <Stet/>
     </div>
   );
 }
